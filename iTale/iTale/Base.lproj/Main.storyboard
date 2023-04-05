@@ -39,16 +39,17 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zcM-pB-xge" userLabel="StoryView">
                                         <rect key="frame" x="0.0" y="232" width="361" height="345"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KX4-om-NPH">
-                                                <rect key="frame" x="8" y="7.9999999999999982" width="41.333333333333336" height="20.333333333333329"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KX4-om-NPH">
+                                                <rect key="frame" x="0.0" y="0.0" width="41.333333333333336" height="20.333333333333332"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="KX4-om-NPH" firstAttribute="leading" secondItem="zcM-pB-xge" secondAttribute="leadingMargin" id="8Jv-6j-5Es"/>
-                                            <constraint firstItem="KX4-om-NPH" firstAttribute="top" secondItem="zcM-pB-xge" secondAttribute="topMargin" id="NGd-de-loV"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="KX4-om-NPH" secondAttribute="trailing" constant="20" symbolic="YES" id="7n5-JV-e6A"/>
+                                            <constraint firstItem="KX4-om-NPH" firstAttribute="top" secondItem="zcM-pB-xge" secondAttribute="top" id="IlM-Ab-ced"/>
+                                            <constraint firstItem="KX4-om-NPH" firstAttribute="leading" secondItem="zcM-pB-xge" secondAttribute="leading" id="S3h-km-P76"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yay-72-urx" userLabel="ButtonView">
@@ -100,6 +101,7 @@
                             <constraint firstItem="wN7-Bh-j0T" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-59" id="5Jj-lH-iEs"/>
                             <constraint firstItem="Vd4-Tr-Jdy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Tbn-zi-Knu"/>
                             <constraint firstItem="Vd4-Tr-Jdy" firstAttribute="centerX" secondItem="wN7-Bh-j0T" secondAttribute="centerX" id="WHM-u5-Oxe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vd4-Tr-Jdy" secondAttribute="trailing" constant="16" id="c2l-JK-8D7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wN7-Bh-j0T" secondAttribute="trailing" id="dLR-Be-6xd"/>
                             <constraint firstItem="wN7-Bh-j0T" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fZc-Rj-oLx"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wN7-Bh-j0T" secondAttribute="bottom" constant="-34" id="ktt-jx-Irg"/>
