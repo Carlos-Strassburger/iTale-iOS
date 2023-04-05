@@ -9,6 +9,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var choice1: UIButton!
+    @IBOutlet weak var choice2: UIButton!
+    @IBOutlet weak var storyOutput: UILabel!
+    @IBOutlet weak var imageBanner: UIImageView!
+    
+    var storyStore = StoryStore()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -16,8 +24,19 @@ class ViewController: UIViewController {
     }
 
 
-    func updateUI() {
-        
+    
+    
+    @IBAction func onChoice(_ sender: UIButton) {
+        storyStore.getNextStoryPrompt(userChoice: sender.currentTitle!)
+        updateUI()
     }
+    
+    func updateUI() {
+        storyOutput.text = storyStore.getStoryText()
+        choice1.setTitle(storyStore.getStoryChoice1(), for: .normal)
+        choice2.setTitle(storyStore.getStoryChoice2(), for: .normal)
+        imageBanner.image = storyStore.getStoryImage()
+    }
+    
 }
 

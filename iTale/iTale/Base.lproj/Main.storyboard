@@ -62,12 +62,18 @@
                                                         <color key="tintColor" systemColor="systemRedColor"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="filled" title="Choice 1"/>
+                                                        <connections>
+                                                            <action selector="onChoice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fbw-G6-YdN"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S9Q-zT-r4K">
                                                         <rect key="frame" x="0.0" y="71" width="321" height="63"/>
                                                         <color key="tintColor" systemColor="systemRedColor"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="filled" title="Choice 2"/>
+                                                        <connections>
+                                                            <action selector="onChoice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cXh-63-RDu"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -81,8 +87,10 @@
                                     </view>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="zcM-pB-xge" secondAttribute="trailing" id="7ze-9E-pjG"/>
                                     <constraint firstItem="zcM-pB-xge" firstAttribute="top" secondItem="Vd4-Tr-Jdy" secondAttribute="top" constant="232" id="EPT-fh-oRx"/>
                                     <constraint firstItem="Yay-72-urx" firstAttribute="top" secondItem="Vd4-Tr-Jdy" secondAttribute="top" constant="585" id="I8Y-Je-q4W"/>
+                                    <constraint firstAttribute="trailing" secondItem="zcM-pB-xge" secondAttribute="trailing" id="V9q-cJ-UEK"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -99,6 +107,12 @@
                             <constraint firstItem="Vd4-Tr-Jdy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ybT-tK-fPL"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="choice1" destination="yBQ-FN-n6L" id="iYz-hh-bqb"/>
+                        <outlet property="choice2" destination="S9Q-zT-r4K" id="tze-ea-vbC"/>
+                        <outlet property="imageBanner" destination="Hzy-7Z-1W6" id="NZ6-Xa-pAq"/>
+                        <outlet property="storyOutput" destination="KX4-om-NPH" id="bsv-bD-U2Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
