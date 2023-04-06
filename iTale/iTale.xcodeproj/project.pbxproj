@@ -13,9 +13,6 @@
 		D56ADA6829DCC8370001BC87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D56ADA6629DCC8370001BC87 /* Main.storyboard */; };
 		D56ADA6A29DCC8370001BC87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D56ADA6929DCC8370001BC87 /* Assets.xcassets */; };
 		D56ADA6D29DCC8370001BC87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D56ADA6B29DCC8370001BC87 /* LaunchScreen.storyboard */; };
-		D56ADA7829DCC8370001BC87 /* iTaleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56ADA7729DCC8370001BC87 /* iTaleTests.swift */; };
-		D56ADA8229DCC8370001BC87 /* iTaleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56ADA8129DCC8370001BC87 /* iTaleUITests.swift */; };
-		D56ADA8429DCC8370001BC87 /* iTaleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56ADA8329DCC8370001BC87 /* iTaleUITestsLaunchTests.swift */; };
 		D5B5D5EE29DE0C9A00845841 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B5D5ED29DE0C9A00845841 /* Story.swift */; };
 		D5B5D5F029DE0D4F00845841 /* StoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B5D5EF29DE0D4F00845841 /* StoryStore.swift */; };
 /* End PBXBuildFile section */
@@ -47,10 +44,7 @@
 		D56ADA6C29DCC8370001BC87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D56ADA6E29DCC8370001BC87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D56ADA7329DCC8370001BC87 /* iTaleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTaleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D56ADA7729DCC8370001BC87 /* iTaleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTaleTests.swift; sourceTree = "<group>"; };
 		D56ADA7D29DCC8370001BC87 /* iTaleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTaleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D56ADA8129DCC8370001BC87 /* iTaleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTaleUITests.swift; sourceTree = "<group>"; };
-		D56ADA8329DCC8370001BC87 /* iTaleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTaleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D5B5D5ED29DE0C9A00845841 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		D5B5D5EF29DE0D4F00845841 /* StoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				D56ADA5F29DCC8370001BC87 /* iTale */,
-				D56ADA7629DCC8370001BC87 /* iTaleTests */,
-				D56ADA8029DCC8370001BC87 /* iTaleUITests */,
 				D56ADA5E29DCC8370001BC87 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,23 +106,6 @@
 				D56ADA6E29DCC8370001BC87 /* Info.plist */,
 			);
 			path = iTale;
-			sourceTree = "<group>";
-		};
-		D56ADA7629DCC8370001BC87 /* iTaleTests */ = {
-			isa = PBXGroup;
-			children = (
-				D56ADA7729DCC8370001BC87 /* iTaleTests.swift */,
-			);
-			path = iTaleTests;
-			sourceTree = "<group>";
-		};
-		D56ADA8029DCC8370001BC87 /* iTaleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D56ADA8129DCC8370001BC87 /* iTaleUITests.swift */,
-				D56ADA8329DCC8370001BC87 /* iTaleUITestsLaunchTests.swift */,
-			);
-			path = iTaleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D56ADA7829DCC8370001BC87 /* iTaleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,8 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D56ADA8429DCC8370001BC87 /* iTaleUITestsLaunchTests.swift in Sources */,
-				D56ADA8229DCC8370001BC87 /* iTaleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -39,16 +39,16 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zcM-pB-xge" userLabel="StoryView">
                                         <rect key="frame" x="0.0" y="232" width="361" height="345"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KX4-om-NPH">
-                                                <rect key="frame" x="0.0" y="0.0" width="41.333333333333336" height="20.333333333333332"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KX4-om-NPH">
+                                                <rect key="frame" x="0.0" y="72" width="50" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <constraints>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="KX4-om-NPH" secondAttribute="trailing" constant="20" symbolic="YES" id="7n5-JV-e6A"/>
-                                            <constraint firstItem="KX4-om-NPH" firstAttribute="top" secondItem="zcM-pB-xge" secondAttribute="top" id="IlM-Ab-ced"/>
+                                            <constraint firstItem="KX4-om-NPH" firstAttribute="top" secondItem="zcM-pB-xge" secondAttribute="top" constant="72" id="IlM-Ab-ced"/>
                                             <constraint firstItem="KX4-om-NPH" firstAttribute="leading" secondItem="zcM-pB-xge" secondAttribute="leading" id="S3h-km-P76"/>
                                         </constraints>
                                     </view>

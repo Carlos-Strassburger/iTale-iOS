@@ -23,9 +23,6 @@ class ViewController: UIViewController {
         updateUI()
     }
 
-
-    
-    
     @IBAction func onChoice(_ sender: UIButton) {
         storyStore.getNextStoryPrompt(userChoice: sender.currentTitle!)
         updateUI()
