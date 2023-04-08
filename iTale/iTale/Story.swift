@@ -21,7 +21,7 @@ struct Story {
         self.storyText = storyText
         self.choice1 = choice1
         self.choice2 = choice2
-        self.choiceDestination1 = choiceDestination1
+        self.choiceDestination1 = choiceDestination1 
         self.choiceDestination2 = choiceDestination2
     }
 }
