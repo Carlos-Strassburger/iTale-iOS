@@ -25,6 +25,7 @@ class ViewController: UIViewController {
 
     @IBAction func onChoice(_ sender: UIButton) {
         storyStore.getNextStoryPrompt(userChoice: sender.currentTitle!)
+        sender.backgroundColor = UIColor(white: 1, alpha: 0.5)
         updateUI()
     }
     
